@@ -73,22 +73,3 @@ npm run dev
 ```
 
 Open http://localhost:3000
-
-## GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial ExamSecure implementation"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/exam-secure.git
-git push -u origin main
-```
-
-## Vercel
-
-1. Push the project to GitHub.
-2. Sign in to Vercel with GitHub.
-3. Import the `exam-secure` repository.
-4. Keep the detected Next.js settings.
-5. Click Deploy.
