@@ -33,6 +33,36 @@ Exam Center:
 - password: `center123`
 - OTP: `123456`
 
+## output
+
+# Admin
+
+<img width="1838" height="861" alt="image" src="https://github.com/user-attachments/assets/747c73cb-5963-4640-b57e-728d525d9435" />
+
+<img width="1762" height="836" alt="image" src="https://github.com/user-attachments/assets/cee59794-7806-43b9-a79c-a3626e3c98d3" />
+
+<img width="1900" height="812" alt="image" src="https://github.com/user-attachments/assets/d05a9606-465d-4f4f-b19d-8684d294adc8" />
+
+<img width="1857" height="826" alt="image" src="https://github.com/user-attachments/assets/958a176d-2bc3-41f7-8ec4-3c32e20cc80f" />
+
+<img width="1885" height="837" alt="image" src="https://github.com/user-attachments/assets/4e361734-6e62-4448-887e-8e2052967f59" />
+
+<img width="1895" height="807" alt="image" src="https://github.com/user-attachments/assets/cc047e2f-20aa-4c4b-9e9f-428cb3c7e237" />
+
+<img width="1886" height="827" alt="image" src="https://github.com/user-attachments/assets/43af087a-cc34-44a4-972a-950667c1bdd7" />
+
+<img width="1867" height="823" alt="image" src="https://github.com/user-attachments/assets/b24b2181-a7c9-487c-a99f-88ad42eb2cfc" />
+
+# Center
+
+<img width="1830" height="782" alt="image" src="https://github.com/user-attachments/assets/cf40ed94-baba-46db-b530-fd388c678f16" />
+
+<img width="1786" height="812" alt="image" src="https://github.com/user-attachments/assets/9b55ee1e-d249-4cb3-8890-e537b1ce3fee" />
+
+<img width="1868" height="806" alt="image" src="https://github.com/user-attachments/assets/08bf7be8-d98c-403d-97f0-97740630170d" />
+
+<img width="1867" height="812" alt="image" src="https://github.com/user-attachments/assets/c7dae1da-af9d-41cb-be21-7225861ff6c5" />
+
 ## Run locally
 
 Install Node.js 20+.
@@ -62,13 +92,3 @@ git push -u origin main
 3. Import the `exam-secure` repository.
 4. Keep the detected Next.js settings.
 5. Click Deploy.
-
-## Important security note
-
-This package is a college-project/demo implementation, not a production examination security system.
-
-The demo intentionally stores encrypted data and its demonstration key in browser localStorage so the complete flow can run without paid services or database credentials. This is NOT appropriate for real confidential examination papers.
-
-For production, move encryption/key management, authentication, authorization, storage, and release enforcement to trusted server-side infrastructure. Use a managed database/storage service, real MFA, server-side authorization, secure secret management, immutable audit logging, and independent security testing.
-
-Use dummy/sample examination papers for demonstrations.
