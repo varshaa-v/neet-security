@@ -1,4 +1,4 @@
-# Versel link :
+# Vercel link :
 https://neet-security.vercel.app/
 
 # ExamSecure
